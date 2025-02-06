@@ -1,0 +1,96 @@
+*{
+    border-radius: 8px;
+}
+body{
+    background-image: url("./imgs/cinnamoroll-hd-wallpaper-3126x4167-14493.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main{
+  
+    background-size: auto;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container:hover{
+    transition: 1.2s;
+    opacity: 1;
+}
+.container{
+    opacity: 0;
+    background-image: url("./imgs/20580972.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px 3px grey ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    
+}
+#tr{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    background-color: white;
+    opacity: 0.9;
+    border: 2px solid #6f8caf;
+    width:50%;
+}
+#Ntask{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    width:80%;
+    height: 8%;
+}
+input{
+    border-color: #6f8caf;
+    border-style: solid;
+    width: 80%;
+    height: 50%;
+}
+#tasklist{
+    width: 85%;
+    height:55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.9;
+    border: 2px solid #6f8caf;
+}
+button{
+    width: 10%;
+    height: 60%;
+    border-color:  #fdb0c5;
+    color:#6f8caf ;
+    border-style: solid;
+    background-color: white;
+    margin: 3px;
+    box-shadow: 2px 1px 6px 1px grey ;
+}
+button:active{
+    transform: translateY(1.2px) translateX(0.5px);
+}
+h1{
+    background-color: #ffd8e5 ;
+    border-radius: 4px;
+}
+ul{
+    list-style: none;
+}
+h3{
+    margin: 5px;
+}
